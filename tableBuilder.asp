@@ -1,4 +1,17 @@
 <%
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	' tableBuilder is a class to build a fast formatted table with recordset
+	'
+	' @package     tableBuilder
+	' @version     0.1
+	' @author      Raymond@HobbyKing
+	' @email       raymond.lam@hobbyking.com
+	' @license     GPL
+	' @copyright   2015 HobbyKing
+	' @link        http://www.hobbyking.com
+	'
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 	class tableBuilder
 		private tb_rs
 		private arr_headers, replaceHeader
